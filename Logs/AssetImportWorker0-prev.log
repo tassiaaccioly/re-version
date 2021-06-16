@@ -1,0 +1,284 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 8173 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\tassi\OneDrive\Documents\Game Dev\Unity Tests\2021.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54574
+Successfully changed project path to: C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
+C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 161.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004429 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 166.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.194 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 159.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3820.
+Total: 4.485500 ms (FindLiveObjects: 0.583700 ms CreateObjectMapping: 0.294600 ms MarkObjects: 3.377400 ms  DeleteObjects: 0.227900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FreePixelMob/ReadMe.txt
+  artifactKey: Guid(a720a4e31829b71449859e39b855d03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/ReadMe.txt using Guid(a720a4e31829b71449859e39b855d03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d131cdd8da15ad26c39bcfef09afff1') in 0.133380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5532.674106 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cc8a57e193cc76ff9355a33f26392b') in 0.397721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.364340 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551f2aa925d63bea4f96a2f87b860036') in 0.030169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.049798 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eeff09646d5befdcb0540158257e06') in 0.089936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.941272 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa73934e89c7d9642a26ee09533ed534') in 0.057354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.369957 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3646ddc2401ee1bdb38c9faceafd9c84') in 0.113656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 196.631721 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0578c2a1156b8452251db124dd4ebd') in 0.034635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.731986 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b9f3688eaa92049738bfdaa767f6ad') in 0.024997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.865040 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd1b3873ef51b852a648c1943815ecb') in 0.147533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.421667 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebece509f943202790ba14d00c91da0') in 0.019959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.956679 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70cafbe4440b077c505545facd86340') in 0.030082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 347.793911 seconds.
+  path: Assets/Sprites/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477812132546e37bfe7513306657cfd8') in 0.067408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.470158 seconds.
+  path: Assets/Sprites/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ef54bcaea59c5bf316a355b9e13e60') in 0.079548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.762111 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e7a09a93c8d645648c42ccad25a6fd') in 0.025585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.979702 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3261b64de0c895ed86d951393258c0a') in 0.028581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.146532 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a223deeaad4406f8f6a28916138712') in 0.028968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.363995 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d5e6d7a81baeb5eb4d07645bf216d7') in 0.017750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.908467 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9951ffdd32caf6a4ee85815ab7535a77') in 0.024228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.641561 seconds.
+  path: Assets/FreePixelMob/Slime_Black.png
+  artifactKey: Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreePixelMob/Slime_Black.png using Guid(44260fadda97d2647af17c5592716740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b6de79f4bd7eaa556a784dd591367c') in 0.116519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.063888 seconds.
+  path: Assets/Animations/Slime_Black.controller
+  artifactKey: Guid(1730c364795c66141b7b2a35e09504c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Slime_Black.controller using Guid(1730c364795c66141b7b2a35e09504c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3049431636d1eb6e0429663766c243') in 0.023556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.306520 seconds.
+  path: Assets/Animations/Slime_Black
+  artifactKey: Guid(9e80c083c05b4eb4fad1decb406c8578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Slime_Black using Guid(9e80c083c05b4eb4fad1decb406c8578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcdac10c9f759e06ea2b97c63386ece') in 0.005681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.866162 seconds.
+  path: Assets/Animations/Main_Characters
+  artifactKey: Guid(5d8f493ab573f9842bb5f30520f11c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Main_Characters using Guid(5d8f493ab573f9842bb5f30520f11c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0150954e17f8d8b4bdffbc1cf3b48267') in 0.018998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.173149 seconds.
+  path: Assets/Animations/Main_Characters/Slime_Black/Idle.anim
+  artifactKey: Guid(4596bcf7f6fcb834e99aa6d7b5ceef4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Main_Characters/Slime_Black/Idle.anim using Guid(4596bcf7f6fcb834e99aa6d7b5ceef4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ad067691c73e04d52d6ac32fc872dc') in 0.022069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.079030 seconds.
+  path: Assets/Animations/Main_Characters/Slime_Black/Walk.anim
+  artifactKey: Guid(5aa70e4296341e745bff2ac4f91c91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Main_Characters/Slime_Black/Walk.anim using Guid(5aa70e4296341e745bff2ac4f91c91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f762ac3d1e850272755e022d18be8d83') in 0.015602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.851014 seconds.
+  path: Assets/Animations/Main_Characters/Slime_Black/Attack.anim
+  artifactKey: Guid(581b69ff82a527240946a37e543250ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Main_Characters/Slime_Black/Attack.anim using Guid(581b69ff82a527240946a37e543250ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ab9607ea6a8c935011080d1c981794') in 0.015830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.881565 seconds.
+  path: Assets/Sprites/Main_Characters
+  artifactKey: Guid(20cbd2a0df84c424bbbcd18847903ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main_Characters using Guid(20cbd2a0df84c424bbbcd18847903ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bddfdf192aa3358aafa8d936a7e708b') in 0.008835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.977943 seconds.
+  path: Assets/Sprites/Main_Characters/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main_Characters/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71c2175e8f5177594f8b8ccb5b6ad26') in 0.068197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.168226 seconds.
+  path: Assets/Sprites/Main_Characters/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main_Characters/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcae780c455ec981e64bd6b2e0f1eae') in 0.069213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.573283 seconds.
+  path: Assets/Sprites/Main_Characters/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main_Characters/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9fa23c989239f76a32995572cb76be') in 0.063563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.212205 seconds.
+  path: Assets/Sprites/Main_Characters/Slime_Black.png
+  artifactKey: Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main_Characters/Slime_Black.png using Guid(174dd849179031e4e988e823f6bd6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dd5ecb06b6fbd3b1f5b59a01de5c89') in 0.070018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.488789 seconds.
+  path: Assets/Resources/Backgrounds
+  artifactKey: Guid(605b73088c26bb84a9ae37789ae643df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds using Guid(605b73088c26bb84a9ae37789ae643df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed0a4a6abe35c6856603f8e6d6c75fe') in 0.013208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.799184 seconds.
+  path: Assets/Resources/Backgrounds/Demon_Forest
+  artifactKey: Guid(c0c3a709123de5b4b92e02703b33ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/Demon_Forest using Guid(c0c3a709123de5b4b92e02703b33ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9170332fbc48f9f45df363927df680c') in 0.015606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.071107 seconds.
+  path: Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-bg.png
+  artifactKey: Guid(6c6f84d7d6b309a44ba25f882da9251f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-bg.png using Guid(6c6f84d7d6b309a44ba25f882da9251f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02fdd4b5ec8bf85878b46396f4d54d9') in 0.038679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-mid-trees.png
+  artifactKey: Guid(5fe95fc0c83bd604ebac6b2f40d3ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-mid-trees.png using Guid(5fe95fc0c83bd604ebac6b2f40d3ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbed97a65015ee1f7c99d469e93e9575') in 0.059534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-close-trees.png
+  artifactKey: Guid(745c7ec62c6679a4b8e89c3a35408ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-close-trees.png using Guid(745c7ec62c6679a4b8e89c3a35408ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abe4211c45a6b3ae4f22082c7513219') in 0.034414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-far-trees.png
+  artifactKey: Guid(d0473bc1c5d8dd64aae7866d6fbbaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/Demon_Forest/parallax-demon-woods-far-trees.png using Guid(d0473bc1c5d8dd64aae7866d6fbbaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff2b126db9ea296905e30004c5cc699') in 0.025116 seconds 
