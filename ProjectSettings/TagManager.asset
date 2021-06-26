@@ -14,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - Player/Enemy
+  - Player
   - Ground
   - 
-  - 
+  - Enemies
   - 
   - 
   - 
@@ -42,17 +42,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Background0
     uniqueID: 119985879
+    locked: 0
+  - name: Background1
+    uniqueID: 948662375
+    locked: 0
+  - name: Background2
+    uniqueID: 3806415791
+    locked: 0
+  - name: Background3
+    uniqueID: 2029677041
     locked: 0
   - name: SceneryBack
     uniqueID: 1074659983
     locked: 0
-  - name: Player/Enemy
-    uniqueID: 3506268541
-    locked: 0
   - name: Ground
     uniqueID: 413648869
+    locked: 0
+  - name: Player
+    uniqueID: 3506268541
+    locked: 0
+  - name: GroundFront
+    uniqueID: 4150010411
     locked: 0
   - name: SceneryFront
     uniqueID: 1874813699

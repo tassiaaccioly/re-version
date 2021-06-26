@@ -15,11 +15,11 @@ C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65194
+63516
 Successfully changed project path to: C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
 C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 178.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 182.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,508 +35,51 @@ Initialize mono
 Mono path[0] = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004413 seconds.
+Registered in 0.003995 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 173.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 168.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
+- Completed reload, in  2.367 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007104 seconds.
+Registered in 0.006844 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 166.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 166.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.109 seconds
+- Completed reload, in  1.992 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.6 MB.
-System memory in use after: 127.6 MB.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.5 MB.
+System memory in use after: 146.6 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3820.
-Total: 4.103800 ms (FindLiveObjects: 0.477400 ms CreateObjectMapping: 0.202100 ms MarkObjects: 3.226900 ms  DeleteObjects: 0.196200 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3845.
+Total: 5.048600 ms (FindLiveObjects: 0.699400 ms CreateObjectMapping: 0.231300 ms MarkObjects: 3.860100 ms  DeleteObjects: 0.255800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_8.asset
-  artifactKey: Guid(17034b7962794f44d8124e65d5844693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_8.asset using Guid(17034b7962794f44d8124e65d5844693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41ff0116d5265eb37440a3598f0ea32') in 0.152710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_52.asset
-  artifactKey: Guid(6ad6db8f4acd03c4e8db472fd54ce263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_52.asset using Guid(6ad6db8f4acd03c4e8db472fd54ce263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bf35583e6128cfb03f17a7e0b04747') in 0.019612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_2.asset
-  artifactKey: Guid(c3af30766f4d0284bb7bdccce3c6f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_2.asset using Guid(c3af30766f4d0284bb7bdccce3c6f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c56814c961acb3bf6277617b513fdf0') in 0.020407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_53.asset
-  artifactKey: Guid(833b295bd0aa149439e8706e1ded6392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_53.asset using Guid(833b295bd0aa149439e8706e1ded6392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da9f868c9f7a90aac1cb39f576795e8') in 0.042060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_3.asset
-  artifactKey: Guid(2a70748729eaa8f4fb5bc796a18d7796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_3.asset using Guid(2a70748729eaa8f4fb5bc796a18d7796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1b92d1d1810f124c78b1f5019a76ec') in 0.037363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_39.asset
-  artifactKey: Guid(3b01ebbf5cd027f4bb7960e9f93da1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_39.asset using Guid(3b01ebbf5cd027f4bb7960e9f93da1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7502fd95eb7308eab6eec06d891d76') in 0.024149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_18.asset
-  artifactKey: Guid(03bd04f91bbe8e743b257330cced6cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_18.asset using Guid(03bd04f91bbe8e743b257330cced6cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32e06f266ab04874c75172c93f632ea') in 0.022830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_28.asset
-  artifactKey: Guid(e8aeecc93b8b4cc47ba0b8c13d1155d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_28.asset using Guid(e8aeecc93b8b4cc47ba0b8c13d1155d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed84c06312020ccbcef8e3ddb1457b9') in 0.030926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_25.asset
-  artifactKey: Guid(3803260b66f63e3408cb7720608748ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_25.asset using Guid(3803260b66f63e3408cb7720608748ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c05116f032353bbd86d2e2ec193464f') in 0.018377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_50.asset
-  artifactKey: Guid(0261f923f9ef5244b850db881a13c37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_50.asset using Guid(0261f923f9ef5244b850db881a13c37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5ffd2265edcbe73fa1dab8598af39b') in 0.019701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_22.asset
-  artifactKey: Guid(3225c3a7795f2df4085adc352ba8f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_22.asset using Guid(3225c3a7795f2df4085adc352ba8f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5819a85ba8aac8310c659c4e59d913a0') in 0.019391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_54.asset
-  artifactKey: Guid(fba0e61004ee40542a595039842449d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_54.asset using Guid(fba0e61004ee40542a595039842449d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a94654b873cc6a93c895046da308058') in 0.017880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_19.asset
-  artifactKey: Guid(5c2f44b9f117d4e459396f2d33fdf053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_19.asset using Guid(5c2f44b9f117d4e459396f2d33fdf053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb061edf37cc62fe2555a988426b159') in 0.018491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_33.asset
-  artifactKey: Guid(14877ea3656190943aa5d3e8c53dc119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_33.asset using Guid(14877ea3656190943aa5d3e8c53dc119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb30ea6ef6cde2b334cdcccf4ba3bf85') in 0.020025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_48.asset
-  artifactKey: Guid(e8081094cf4260e41a6d145a9f407b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_48.asset using Guid(e8081094cf4260e41a6d145a9f407b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da753c720e3a74f9a0abb50e13d9dd7e') in 0.019244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_27.asset
-  artifactKey: Guid(ceec72efa9722fd4db879913999de4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_27.asset using Guid(ceec72efa9722fd4db879913999de4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd0d6c41462585269d8a517f855355d') in 0.019931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_55.asset
-  artifactKey: Guid(6ef3fa492342e6f4abd09df3611930f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_55.asset using Guid(6ef3fa492342e6f4abd09df3611930f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e921a6d4fce172d740b4676f2247c02c') in 0.017890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_12.asset
-  artifactKey: Guid(a9caf82faff6b4240a1e6742ed47e0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_12.asset using Guid(a9caf82faff6b4240a1e6742ed47e0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652d49030faec6658ebdb4f98d7c1487') in 0.018937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_9.asset
-  artifactKey: Guid(98af5dbb9690c044d85c5e969c6053d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_9.asset using Guid(98af5dbb9690c044d85c5e969c6053d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be5cb400fcebf9815f946a32d6624ce') in 0.022359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_11.asset
-  artifactKey: Guid(e43c212487f637f4ba6b4bbca668bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_11.asset using Guid(e43c212487f637f4ba6b4bbca668bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d2e332356345068c51cdf112e4e9b4') in 0.019269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_30.asset
-  artifactKey: Guid(afae41cd898382a49bafaa5db55c2c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_30.asset using Guid(afae41cd898382a49bafaa5db55c2c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168291e4cc1d92b11d93f090990f28f4') in 0.019415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_40.asset
-  artifactKey: Guid(5e94ac21a1807204a850a7633aba153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_40.asset using Guid(5e94ac21a1807204a850a7633aba153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da88796685a177f7a8ff7ff16afe054') in 0.018810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_7.asset
-  artifactKey: Guid(d7b8e654256e0444f9abcab740d17e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_7.asset using Guid(d7b8e654256e0444f9abcab740d17e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e8e2fc6abbb6149e47ec7700302da0') in 0.019762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_23.asset
-  artifactKey: Guid(48aaeceb1c4c6674799e703634619757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_23.asset using Guid(48aaeceb1c4c6674799e703634619757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5202db8a272d689b2b48eadd8c1ccbec') in 0.022308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_15.asset
-  artifactKey: Guid(59d0bbe90a8fcb648b5dff5bb382de16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_15.asset using Guid(59d0bbe90a8fcb648b5dff5bb382de16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f7bb4708ef340fbfef33b6760f48e') in 0.017708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_31.asset
-  artifactKey: Guid(3a59f517bc6723b428b6dcb661f6778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_31.asset using Guid(3a59f517bc6723b428b6dcb661f6778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce2b08e6538056dd71790eb06e01dcf') in 0.018812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_5.asset
-  artifactKey: Guid(b66f6fa9341bded4dbb50b2eebac146e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_5.asset using Guid(b66f6fa9341bded4dbb50b2eebac146e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d0658dfc40db6e2eff77ebae70ab37') in 0.019944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_41.asset
-  artifactKey: Guid(5b3df7c112f8c474990fe9bee235b181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_41.asset using Guid(5b3df7c112f8c474990fe9bee235b181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e1b33ee4f0d0c2cdcfc9348290d39b') in 0.017542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_37.asset
-  artifactKey: Guid(8a925e1b7a0ae5a48bd9e90544089db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_37.asset using Guid(8a925e1b7a0ae5a48bd9e90544089db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849b6e916a6e9d238bcc2fa63aa0c943') in 0.035984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_43.asset
-  artifactKey: Guid(0adc32f483100ab4c95f9323a24f1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_43.asset using Guid(0adc32f483100ab4c95f9323a24f1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57536f6e82ecd773045f1d06fcaccb5a') in 0.022429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_47.asset
-  artifactKey: Guid(8bbf6af418b829b438ae48b900267984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_47.asset using Guid(8bbf6af418b829b438ae48b900267984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c458cf4d9ff74ae2246e9820d986ac77') in 0.016757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_36.asset
-  artifactKey: Guid(9741553d366a41640a2858dee0dc7b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_36.asset using Guid(9741553d366a41640a2858dee0dc7b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247c87536bbfae04a210d1a7fcc74751') in 0.017678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Tilemaps/Sand_Ruins.prefab
-  artifactKey: Guid(eca3d43cd91c60042a4c69da8d8b8812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Sand_Ruins.prefab using Guid(eca3d43cd91c60042a4c69da8d8b8812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bd315a150235b857ce719a95f69d49') in 0.029816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_17.asset
-  artifactKey: Guid(5ac76991ccb69a745a1f62396b4c3119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_17.asset using Guid(5ac76991ccb69a745a1f62396b4c3119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8cda6c74df357b5346c991a7161586') in 0.017241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_26.asset
-  artifactKey: Guid(2b7f76f571d70f948a15428b4247d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_26.asset using Guid(2b7f76f571d70f948a15428b4247d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3805d661e420593ee0baf63a2bb223') in 0.018812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_44.asset
-  artifactKey: Guid(3c2c07add008e3f4fb744ffe289b43f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_44.asset using Guid(3c2c07add008e3f4fb744ffe289b43f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8326c34d7d29f184e74b79972ff3857b') in 0.017640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_29.asset
-  artifactKey: Guid(e306261f53590fb4cae5e616add1673d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_29.asset using Guid(e306261f53590fb4cae5e616add1673d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ddc9e21932f041ea99a01bea42880c') in 0.018893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_1.asset
-  artifactKey: Guid(b5957fdcb5fe3984d8831e2990f0c6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_1.asset using Guid(b5957fdcb5fe3984d8831e2990f0c6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02004b7a48bdd86bcd443d764861428') in 0.019355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_10.asset
-  artifactKey: Guid(a167e36d9b0d94e4bb34f8275975ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_10.asset using Guid(a167e36d9b0d94e4bb34f8275975ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c02b97ccfecaac7e83a5aadcf25303') in 0.018087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_32.asset
-  artifactKey: Guid(7a609bd5b4a7ebc4eb9b1d3eabb706b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_32.asset using Guid(7a609bd5b4a7ebc4eb9b1d3eabb706b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055aae25de230f0d64858f7d8df1167b') in 0.018439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_20.asset
-  artifactKey: Guid(e4085c9e9c5d5ed48a6766da1950c758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_20.asset using Guid(e4085c9e9c5d5ed48a6766da1950c758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9276e93149916d47dd90d49c5ca7bfcd') in 0.017927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_35.asset
-  artifactKey: Guid(e9d94f57bdd53a04d9174f650fd68aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_35.asset using Guid(e9d94f57bdd53a04d9174f650fd68aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d949d716ea13e3e66138a759dd675e') in 0.018899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_14.asset
-  artifactKey: Guid(8a5edbc74dfe19d4ca1d5c9b999e127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_14.asset using Guid(8a5edbc74dfe19d4ca1d5c9b999e127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4b44e0f1e972001b239aeb874faa8b') in 0.019237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_38.asset
-  artifactKey: Guid(63a2865f6d9787343bdc85a40171325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_38.asset using Guid(63a2865f6d9787343bdc85a40171325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9044fc5677f1bd453c2786cebc3237cd') in 0.021932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_6.asset
-  artifactKey: Guid(4c1269ca217b8e84e954d24399ad4a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_6.asset using Guid(4c1269ca217b8e84e954d24399ad4a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdd2d5b8d8656025fc1b2258ea1f0be') in 0.025482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_0.asset
-  artifactKey: Guid(3b11fd1b87e8495438f5e8673e1d4f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_0.asset using Guid(3b11fd1b87e8495438f5e8673e1d4f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754a5e27bcbc744beb111e3695533cee') in 0.018912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_13.asset
-  artifactKey: Guid(76163ce249acc434ebf0ac2764535386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_13.asset using Guid(76163ce249acc434ebf0ac2764535386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceff373ec13affe7fe27a1f1f1c7ede') in 0.017341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_24.asset
-  artifactKey: Guid(a6ef33556289a0549a3312c64eeb7028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_24.asset using Guid(a6ef33556289a0549a3312c64eeb7028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d7bc9f7b2d38b38ffc06058c3da526') in 0.017406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_16.asset
-  artifactKey: Guid(35a47823e91ce5847b6cf2a5d755716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_16.asset using Guid(35a47823e91ce5847b6cf2a5d755716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c5f23286c811756e726851a85217bd') in 0.019888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_34.asset
-  artifactKey: Guid(29ed294975b3f4747932779f1cadded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_34.asset using Guid(29ed294975b3f4747932779f1cadded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf89dafc08e6d60ba4677540b56faa1') in 0.019149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_49.asset
-  artifactKey: Guid(819f01f796ab2d24f8d884d81b4f5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_49.asset using Guid(819f01f796ab2d24f8d884d81b4f5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67129a7bb88dbb66634aa69300912c26') in 0.017519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_51.asset
-  artifactKey: Guid(b671cb4841d821347bf4e443df342128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_51.asset using Guid(b671cb4841d821347bf4e443df342128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0e2bfba30f9a9cfe8d6725b4b9e69') in 0.018923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_42.asset
-  artifactKey: Guid(4b2f90c0c60adbf4d9dc77b08391689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_42.asset using Guid(4b2f90c0c60adbf4d9dc77b08391689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040e52822f454f1b9f71ed95301ada0f') in 0.018396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_46.asset
-  artifactKey: Guid(bb8760cb799ab6941b92d40c302639ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_46.asset using Guid(bb8760cb799ab6941b92d40c302639ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd021d90f105342741a696c259b731') in 0.190574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_21.asset
-  artifactKey: Guid(5da8a3a597b216841a527a5c51080750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_21.asset using Guid(5da8a3a597b216841a527a5c51080750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c95a3b843df0669c56466b8d8d99859') in 0.029089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_4.asset
-  artifactKey: Guid(9bb2fa28e871a6f4fb1ef4aeba4d562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_4.asset using Guid(9bb2fa28e871a6f4fb1ef4aeba4d562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414bf10d0345bf254b0415277b760c57') in 0.018090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Tilemaps/Dungeon Ruins Tileset Day_45.asset
-  artifactKey: Guid(0561abdc52fd2db47a4b4c81827e8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Dungeon Ruins Tileset Day_45.asset using Guid(0561abdc52fd2db47a4b4c81827e8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980795f34373f6031aef5d3809b4d85f') in 0.019050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 108.195655 seconds.
-  path: Assets/Tilemaps/Sand_Ruins.prefab
-  artifactKey: Guid(eca3d43cd91c60042a4c69da8d8b8812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Sand_Ruins.prefab using Guid(eca3d43cd91c60042a4c69da8d8b8812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c4cc3144d0fff6ff049c98d11475e7') in 0.009117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 102.099568 seconds.
-  path: Assets/Tilemaps/Sand_Ruins.prefab
-  artifactKey: Guid(eca3d43cd91c60042a4c69da8d8b8812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Sand_Ruins.prefab using Guid(eca3d43cd91c60042a4c69da8d8b8812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c06f6b12e0320d50cd8be1831fb2d2') in 0.008615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 426.579908 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day.png
-  artifactKey: Guid(a881ce7c7722a2c408afc5114f3a2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day.png using Guid(a881ce7c7722a2c408afc5114f3a2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d9e0f3d84b7933272924dd13b790e') in 0.387770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1617.534746 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day.png
-  artifactKey: Guid(a881ce7c7722a2c408afc5114f3a2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day.png using Guid(a881ce7c7722a2c408afc5114f3a2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bb36a186a01567aeb36f5680063836') in 0.247587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1309.317421 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_237.asset
-  artifactKey: Guid(f67595f74cf205c48aab8bfd3fb151cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_237.asset using Guid(f67595f74cf205c48aab8bfd3fb151cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e40170576fc120bc62acd89604ae01') in 0.033132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_239.asset
-  artifactKey: Guid(6cfcc2814ee68514db5c3aa73309a2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_239.asset using Guid(6cfcc2814ee68514db5c3aa73309a2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee906cb4c61bb16edbc5d7da7d8739d5') in 0.019047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_238.asset
-  artifactKey: Guid(a04031c4104850546a46f4f64ad28e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_238.asset using Guid(a04031c4104850546a46f4f64ad28e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1b8e642f0e54733930ef512628d56d') in 0.032963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_268.asset
-  artifactKey: Guid(17b06bbca9d6b4c46935c60a77087022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_268.asset using Guid(17b06bbca9d6b4c46935c60a77087022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9be47bbdebb8011e3f42b74a0408e9') in 0.019855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.456630 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_286.asset
-  artifactKey: Guid(c065c306fb452c6469558b93b0b06fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_286.asset using Guid(c065c306fb452c6469558b93b0b06fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75a29826786a4401f733df53915a7e1') in 0.038633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.721752 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_280.asset
-  artifactKey: Guid(f9b569e1213a0754cb4cea850ddf90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_280.asset using Guid(f9b569e1213a0754cb4cea850ddf90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c0580110f737e4d2f0799b84fbdb94') in 0.019193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 233.487486 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_263.asset
-  artifactKey: Guid(3b95614036431744db64699996bbf856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_263.asset using Guid(3b95614036431744db64699996bbf856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c827c9d3674e1402bb3a5a5cb1c94fcb') in 0.024308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_265.asset
-  artifactKey: Guid(178c4d7dad991e94fb415708050a8002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_265.asset using Guid(178c4d7dad991e94fb415708050a8002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ae7273a87728132368d5c642e2bd0e') in 0.094618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_264.asset
-  artifactKey: Guid(7228041b9f281b24a84cba682c5e8ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_264.asset using Guid(7228041b9f281b24a84cba682c5e8ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13796ba57877de438f8ae3fba5591f0c') in 0.018280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.261651 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_266.asset
-  artifactKey: Guid(5e19bb3ae26fd6b42afb2f02ef4c189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_266.asset using Guid(5e19bb3ae26fd6b42afb2f02ef4c189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b1557a15122520d39c1c78e72df552') in 0.022205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_271.asset
-  artifactKey: Guid(e8ac461a157bb12498a4c4fd488c29d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_271.asset using Guid(e8ac461a157bb12498a4c4fd488c29d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b08fc7712abb25e99f9dcd8f02d259f') in 0.111923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_272.asset
-  artifactKey: Guid(796a89175f9ac4d43983a32fb6516e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_272.asset using Guid(796a89175f9ac4d43983a32fb6516e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddb27146aef783515141c02169682da') in 0.019466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_274.asset
-  artifactKey: Guid(b9c16023c81439c4bba7f50df1594c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_274.asset using Guid(b9c16023c81439c4bba7f50df1594c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59af9a8caaec06ae6b360fbb530fa297') in 0.021172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_273.asset
-  artifactKey: Guid(c5590f8bb7ae68042a40cbfd1196f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_273.asset using Guid(c5590f8bb7ae68042a40cbfd1196f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e54b619c722c68fb21978492885734') in 0.019770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055700 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_276.asset
-  artifactKey: Guid(b9fd3bbf832bb96408d1a37ddeada771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_276.asset using Guid(b9fd3bbf832bb96408d1a37ddeada771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c78b15e600806923a96ca0881a3c2b') in 0.022404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_277.asset
-  artifactKey: Guid(13cb79cf4b41fae45b16846f8d07c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_277.asset using Guid(13cb79cf4b41fae45b16846f8d07c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc8d08b1fa8b69c7415f7c8dbed6792') in 0.019757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_278.asset
-  artifactKey: Guid(ffb11701af0fd6a41adf0b64fc8c5fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_278.asset using Guid(ffb11701af0fd6a41adf0b64fc8c5fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8008ffdbd222c34c4322c85b9e569bb3') in 0.035956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.968985 seconds.
-  path: Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_279.asset
-  artifactKey: Guid(33d49bdea5d23a146b6c2ff223807643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenery/Ruins/Dungeon Ruins Tileset Day_279.asset using Guid(33d49bdea5d23a146b6c2ff223807643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f999132bf5a56a9c2b477c7ba5ec421') in 0.027900 seconds 
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810d35c05be0e604010421e7149294d2') in 0.150497 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3845.
+Total: 4.523200 ms (FindLiveObjects: 0.526400 ms CreateObjectMapping: 0.210100 ms MarkObjects: 3.573400 ms  DeleteObjects: 0.211600 ms)
+
