@@ -10,6 +10,8 @@ public class CameraFollow : MonoBehaviour
     public float smoothTimeX;
     public float smoothTimeY;
 
+    public float cameraHight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,6 @@ public class CameraFollow : MonoBehaviour
         float posX = Mathf.SmoothDamp(transform.position.x, player.position.x, ref velocity.x, smoothTimeX);
         float posY = Mathf.SmoothDamp(transform.position.y, player.position.y, ref velocity.y, smoothTimeY);
 
-        transform.position = new Vector3(posX, posY, transform.position.z);
+        transform.position = new Vector3(posX, posY + cameraHight, transform.position.z);
     }
 }

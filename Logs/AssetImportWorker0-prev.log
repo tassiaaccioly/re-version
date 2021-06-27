@@ -15,11 +15,11 @@ C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59095
+64425
 Successfully changed project path to: C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
 C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/re-version
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 184.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 217.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,513 +35,1231 @@ Initialize mono
 Mono path[0] = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/tassi/OneDrive/Documents/Game Dev/Unity Tests/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004102 seconds.
+Registered in 0.008446 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 174.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 184.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.401 seconds
+- Completed reload, in  2.476 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007490 seconds.
+Registered in 0.007019 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 172.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 190.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.049 seconds
+- Completed reload, in  2.396 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.5 MB.
-System memory in use after: 146.6 MB.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.8 MB.
+System memory in use after: 146.9 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3845.
-Total: 5.142600 ms (FindLiveObjects: 0.578600 ms CreateObjectMapping: 0.253800 ms MarkObjects: 4.008900 ms  DeleteObjects: 0.299200 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3844.
+Total: 5.644500 ms (FindLiveObjects: 0.702700 ms CreateObjectMapping: 0.317800 ms MarkObjects: 4.283600 ms  DeleteObjects: 0.338600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations/Player/Slow_Walk.anim
+  path: Assets/Animations/Player/Idle.anim
+  artifactKey: Guid(9d5b5e4fc2879ad43bb49e2384becc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Idle.anim using Guid(9d5b5e4fc2879ad43bb49e2384becc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43db3fa5f0895d042fc86476638a636') in 0.143360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.348661 seconds.
+  path: Assets/Animations/Player/Player_Idle.anim
+  artifactKey: Guid(9d5b5e4fc2879ad43bb49e2384becc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Idle.anim using Guid(9d5b5e4fc2879ad43bb49e2384becc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecb40da9cde38fcf2be8da5c4969a93') in 0.014575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.989885 seconds.
+  path: Assets/Animations/Player/Player.controller
+  artifactKey: Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player.controller using Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f027ee70530beb9de6bd51178d3c2eb6') in 0.013816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.950220 seconds.
+  path: Assets/Animations/Player/Player_Slow_Walk.anim
   artifactKey: Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Slow_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12627dab08f0c0cd0a0d284228a29e5') in 0.181112 seconds 
+Start importing Assets/Animations/Player/Player_Slow_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507cc86792bbf854ba43bc83a038b611') in 0.016867 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008470 seconds.
+Registered in 0.008592 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.957 seconds
+- Completed reload, in  1.803 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.6 MB.
-System memory in use after: 146.7 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3849.
-Total: 3.756800 ms (FindLiveObjects: 0.498800 ms CreateObjectMapping: 0.235400 ms MarkObjects: 2.822900 ms  DeleteObjects: 0.198000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3848.
+Total: 4.517800 ms (FindLiveObjects: 0.553900 ms CreateObjectMapping: 0.242100 ms MarkObjects: 3.472800 ms  DeleteObjects: 0.247200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2447.322701 seconds.
+  path: Assets/Atlas/MasterHD.spriteatlas
+  artifactKey: Guid(aeb4fe14bbb185140a44a78e00ebce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Atlas/MasterHD.spriteatlas using Guid(aeb4fe14bbb185140a44a78e00ebce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845dea5aa4bd3c3aa97e19440f43cd57') in 0.090336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 602.802631 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_2.asset
+  artifactKey: Guid(d08fd33caaf0c884f9bc5bbb1196808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_2.asset using Guid(d08fd33caaf0c884f9bc5bbb1196808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff220d7edf098cd9644292187db1103') in 0.205465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000895 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_16.asset
+  artifactKey: Guid(fdeafd8aac3a7d54294d91a303e4e51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_16.asset using Guid(fdeafd8aac3a7d54294d91a303e4e51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52f905b7c408dc23c0b1efdc02e89f3') in 0.086607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_10.asset
+  artifactKey: Guid(20cdb8e0906c4cf489664963d0c16632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_10.asset using Guid(20cdb8e0906c4cf489664963d0c16632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71de1a48909878b3d89b35e8f961fa9b') in 0.025836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_4.asset
+  artifactKey: Guid(42e1ca40b8458dc46af4cc45f67fc30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_4.asset using Guid(42e1ca40b8458dc46af4cc45f67fc30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a763906dfe0808c0d15ccad5efb32e') in 0.036766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_15.asset
+  artifactKey: Guid(5ff9e8ee6e7713648b4b3bb4948a96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_15.asset using Guid(5ff9e8ee6e7713648b4b3bb4948a96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7d22bb30a39f127deffd5d8b100bc7') in 0.039585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_32.asset
+  artifactKey: Guid(5dfb0fa8d67846043b7e8519842beba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_32.asset using Guid(5dfb0fa8d67846043b7e8519842beba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e17df9cfd422d33e901adf7cc3332fb') in 0.028392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_18.asset
+  artifactKey: Guid(0d1098384978dda4880355c5f9ff3c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_18.asset using Guid(0d1098384978dda4880355c5f9ff3c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dce63bd1e08aa5fe68af8a1f582495f') in 0.026096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_14.asset
+  artifactKey: Guid(9c5d0c7b498a4f746bb06c5eb840dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_14.asset using Guid(9c5d0c7b498a4f746bb06c5eb840dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3780f19445694631104da7a7464fbe0a') in 0.023056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_20.asset
+  artifactKey: Guid(99e69680bffb9654ea606ef7ec776197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_20.asset using Guid(99e69680bffb9654ea606ef7ec776197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3961bfd614192a8a24f452688ca0fde9') in 0.024436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_21.asset
+  artifactKey: Guid(7428c77196e138e4cb1a0a21cba52ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_21.asset using Guid(7428c77196e138e4cb1a0a21cba52ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b89b1036065d23e62995ce176a4a9') in 0.021415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_23.asset
+  artifactKey: Guid(2fee76c0dd78f6e499cc0c10d249ce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_23.asset using Guid(2fee76c0dd78f6e499cc0c10d249ce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d9490e9cd191afb0df11f9aa7853f8') in 0.019796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_22.asset
+  artifactKey: Guid(a798f7b570aee2e4bbad839298bfeb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_22.asset using Guid(a798f7b570aee2e4bbad839298bfeb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43256850feaabde4530549c97b58f362') in 0.022288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_24.asset
+  artifactKey: Guid(084b538e9e8f9d9469f3975bc72f8495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_24.asset using Guid(084b538e9e8f9d9469f3975bc72f8495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690168ce2724cc220c430eae4ead5437') in 0.022899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_5.asset
+  artifactKey: Guid(1f93695bacac9d544a7a31fdffca1388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_5.asset using Guid(1f93695bacac9d544a7a31fdffca1388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2a282062fc9b5f9d6e180e36fb0b19') in 0.020246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_19.asset
+  artifactKey: Guid(84e545fa1d7b1bb4fa3ff3d0924c1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_19.asset using Guid(84e545fa1d7b1bb4fa3ff3d0924c1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed10b17e30a19ac1aa5753214f6b89fc') in 0.021202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_25.asset
+  artifactKey: Guid(ef19003adcc358b4b8ad2a7f6e424e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_25.asset using Guid(ef19003adcc358b4b8ad2a7f6e424e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69204b9e94ba12f736c6f02f152aa00e') in 0.021164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_3.asset
+  artifactKey: Guid(3beba8c40355815439a123bf04317414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_3.asset using Guid(3beba8c40355815439a123bf04317414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967e47bf54df540c02284de8bcab7892') in 0.022127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_7.asset
+  artifactKey: Guid(da692c774c4f3fb48af3c9197572c174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_7.asset using Guid(da692c774c4f3fb48af3c9197572c174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832d3e58629aebfa798bbd5f5791e0f7') in 0.020472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_17.asset
+  artifactKey: Guid(f5c42d47149d6fa4584fd6aa2739932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_17.asset using Guid(f5c42d47149d6fa4584fd6aa2739932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c16f5b7c894106a5ed303b1044e506') in 0.022850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.098752 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_39.asset
+  artifactKey: Guid(718dfe05296906e4489c68aa262dadac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_39.asset using Guid(718dfe05296906e4489c68aa262dadac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36d44c292c5423c7477407d9384097b') in 0.027725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_42.asset
+  artifactKey: Guid(c0f188716ac0a094ea3fa53c2fd73900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_42.asset using Guid(c0f188716ac0a094ea3fa53c2fd73900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aa6408392f89dd4f43fdad30a0a957') in 0.020882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_41.asset
+  artifactKey: Guid(f6c3e14601dcfc1439c528883db72ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_41.asset using Guid(f6c3e14601dcfc1439c528883db72ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bf018bdebee4d4ad1d8a373077f2da') in 0.019598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_40.asset
+  artifactKey: Guid(28a576368622db14289e11ffbdd04465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_40.asset using Guid(28a576368622db14289e11ffbdd04465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3c598602cd451fd28f68090a3d5915') in 0.021054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.273838 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_43.asset
+  artifactKey: Guid(78ddca5bef65157449138b1b3461fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_43.asset using Guid(78ddca5bef65157449138b1b3461fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df9a56b523e7df7632fa7eb9194291b') in 0.037941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_45.asset
+  artifactKey: Guid(19a51b409bcd46242b4e2a9add840a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_45.asset using Guid(19a51b409bcd46242b4e2a9add840a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f5f60e51e01520ba47589839069e35') in 0.028837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_49.asset
+  artifactKey: Guid(e9431ae68777cd340939fcd55f598944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_49.asset using Guid(e9431ae68777cd340939fcd55f598944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a272e9c113cd553d6c232fb531b1e30') in 0.021814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_47.asset
+  artifactKey: Guid(ee13fa87ef25f674c978f298603484a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_47.asset using Guid(ee13fa87ef25f674c978f298603484a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa8888f36a417241932e1373b76d1f9') in 0.021117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_50.asset
+  artifactKey: Guid(06bc04b58940b9d45a17e2f43fba422d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_50.asset using Guid(06bc04b58940b9d45a17e2f43fba422d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ee89919a1dfd0f32abeda1d4fd8dd4') in 0.024083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_46.asset
+  artifactKey: Guid(7f2d4a54536ce4f4d8a46f823e54e498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_46.asset using Guid(7f2d4a54536ce4f4d8a46f823e54e498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ce1ba058b4c13c3d54dcf600608d70') in 0.065706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_48.asset
+  artifactKey: Guid(d83b3a32cbb101f4381ad07dc9f7f39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_48.asset using Guid(d83b3a32cbb101f4381ad07dc9f7f39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61081b124a7d82676602301856494aaa') in 0.076386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_44.asset
+  artifactKey: Guid(10081832d11ac1043b3c83bb24c96a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_44.asset using Guid(10081832d11ac1043b3c83bb24c96a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671fb3ed8a22fc3832e6ee225d40eb9') in 0.020193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_57.asset
+  artifactKey: Guid(6587062439bc9bc4ca69367df135df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_57.asset using Guid(6587062439bc9bc4ca69367df135df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b240aaf93b8f692430cfe10186d05517') in 0.039852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_56.asset
+  artifactKey: Guid(de11ac9f94eb6904b888f2bbc97ef32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_56.asset using Guid(de11ac9f94eb6904b888f2bbc97ef32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71480a5f19b17539add123a92fb431fd') in 0.023591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_65.asset
+  artifactKey: Guid(12cc8e8dc5788fc4fb2a336327a0ae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_65.asset using Guid(12cc8e8dc5788fc4fb2a336327a0ae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4568e7b094324cfcd717bda1e48c7d88') in 0.048041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_66.asset
+  artifactKey: Guid(f79b56e1ab46d1e42ac2327e3e861dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_66.asset using Guid(f79b56e1ab46d1e42ac2327e3e861dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8768b33956275a3900239623b60433fe') in 0.036455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_64.asset
+  artifactKey: Guid(ecc5815f06d77c648a44c17974911c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_64.asset using Guid(ecc5815f06d77c648a44c17974911c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3fe257acd39f4e79e6d537228ac712') in 0.022183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_67.asset
+  artifactKey: Guid(0250f3732a37b084d848e2f2a792ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_67.asset using Guid(0250f3732a37b084d848e2f2a792ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf04024c6804892c3b881946dd631a3') in 0.024145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.358592 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_68.asset
+  artifactKey: Guid(4cba608e92434634f8f21731a46efecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_68.asset using Guid(4cba608e92434634f8f21731a46efecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9300d5091536c1b2b48ceecf586d2a') in 0.033241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_69.asset
+  artifactKey: Guid(e10f1134a00aecd40b16dc2b428147d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_69.asset using Guid(e10f1134a00aecd40b16dc2b428147d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116eb07a7314b7285df9efdedc336590') in 0.024369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_74.asset
+  artifactKey: Guid(9949cadb1185ce24b8093bb30ccb5359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_74.asset using Guid(9949cadb1185ce24b8093bb30ccb5359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aac2e940c0ea239a8053cde0be5d6d1') in 0.027833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_82.asset
+  artifactKey: Guid(4709bda3a3bea6b45abb51ab8061f3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_82.asset using Guid(4709bda3a3bea6b45abb51ab8061f3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13234905da8d34c0ef9915c2e9eb019a') in 0.022119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203595 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_83.asset
+  artifactKey: Guid(c01a58d1956f2da46aac8aea88bd1aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_83.asset using Guid(c01a58d1956f2da46aac8aea88bd1aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0706e7bf34743750a0792a41291463e3') in 0.036428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_94.asset
+  artifactKey: Guid(34bc7bc40269db244ab093f667b00546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_94.asset using Guid(34bc7bc40269db244ab093f667b00546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccddbca65f8dbd5851572af61d403a0') in 0.040862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_93.asset
+  artifactKey: Guid(aa18946befe20814588a4b8af4d5a8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_93.asset using Guid(aa18946befe20814588a4b8af4d5a8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1964812a2fc75748cec5ed2e1ace3da') in 0.024664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_91.asset
+  artifactKey: Guid(b260b14528f5438469c92d40dd6dd2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_91.asset using Guid(b260b14528f5438469c92d40dd6dd2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e371d1abbcd693caf9bacc08a0b2e4') in 0.036666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_95.asset
+  artifactKey: Guid(32f210729a42b464b9b3323d35b9b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_95.asset using Guid(32f210729a42b464b9b3323d35b9b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d39f4348a03f67d4f3587629e974478') in 0.027905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_96.asset
+  artifactKey: Guid(cd69594451d8cba4ab47eea62ac5fca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_96.asset using Guid(cd69594451d8cba4ab47eea62ac5fca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8f3704d0495e921615b2cb9d3b13ad') in 0.046475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163718 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_97.asset
+  artifactKey: Guid(84192345e5c87fd42b74e4bd328fb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_97.asset using Guid(84192345e5c87fd42b74e4bd328fb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121bce6588a3096d29ac49b719955b18') in 0.063944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_102.asset
+  artifactKey: Guid(3404e0afd1a5ef1408faeb783faf7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_102.asset using Guid(3404e0afd1a5ef1408faeb783faf7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833f3a9738ba383e84d5010e7b76e5a2') in 0.052012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_104.asset
+  artifactKey: Guid(ebd275a880e997445b180272c94fec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_104.asset using Guid(ebd275a880e997445b180272c94fec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd803a97db1aa50f8b97b0af84ac4490') in 0.026933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_103.asset
+  artifactKey: Guid(5863527010d304d448a12aa69dccee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_103.asset using Guid(5863527010d304d448a12aa69dccee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407be02e92d063e6d7c97cb0afe38d0d') in 0.039730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_101.asset
+  artifactKey: Guid(5db400399e21b6040b8d00648fe14877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_101.asset using Guid(5db400399e21b6040b8d00648fe14877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb630f836bebead33310b08ba412e7ed') in 0.043884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_99.asset
+  artifactKey: Guid(6e7eeb8d724bc1e43996f7102f07d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_99.asset using Guid(6e7eeb8d724bc1e43996f7102f07d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f934306536b351323953bb34c378efb1') in 0.042449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_116.asset
+  artifactKey: Guid(0318a6bf5fad8244f854fdc0c42fd0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_116.asset using Guid(0318a6bf5fad8244f854fdc0c42fd0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc748b0686cf397fa8051a3cdc08e4e') in 0.033424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_115.asset
+  artifactKey: Guid(1fafbc200b522ea409689b485cf7d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_115.asset using Guid(1fafbc200b522ea409689b485cf7d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663fc5795621dcfe410f095adab8a98c') in 0.050045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_118.asset
+  artifactKey: Guid(29a82cf5d84827d45899575c7400ca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_118.asset using Guid(29a82cf5d84827d45899575c7400ca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f0a07f0557e6f575e18108194b2833') in 0.019817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_110.asset
+  artifactKey: Guid(087528d468cd9ea4982ea5ef674c670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_110.asset using Guid(087528d468cd9ea4982ea5ef674c670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c4b576e623c0104cb32d722e3481e1') in 0.056726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_117.asset
+  artifactKey: Guid(f2ca861c73f84fd44ab42025e20f7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_117.asset using Guid(f2ca861c73f84fd44ab42025e20f7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab39214740142b46d8ef6fbe82950ce4') in 0.019832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_105.asset
+  artifactKey: Guid(7436d4a3d8e857b4a893e6c83f1c4f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_105.asset using Guid(7436d4a3d8e857b4a893e6c83f1c4f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0a23730cf25cbff01aa7cba978c6fe') in 0.034828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_98.asset
+  artifactKey: Guid(9a09b839973a3fd4eb9746e3df371134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_98.asset using Guid(9a09b839973a3fd4eb9746e3df371134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008a54d529f81ca88212dd37c630ff29') in 0.028341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_123.asset
+  artifactKey: Guid(24bd9e3b5ea35234899178f32ed10c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_123.asset using Guid(24bd9e3b5ea35234899178f32ed10c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eb6f7b4a510dc8899a9607ef2f091f') in 0.037423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_127.asset
+  artifactKey: Guid(2652f8ed6339a944997146bb75c2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_127.asset using Guid(2652f8ed6339a944997146bb75c2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e403ecc02303aa67e77b375f24689f50') in 0.022684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_124.asset
+  artifactKey: Guid(7d2fb6f4519e2fd42830e4519b1d2bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_124.asset using Guid(7d2fb6f4519e2fd42830e4519b1d2bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a52e1b0d2f255c59d8eb3a0232fb02') in 0.024207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_126.asset
+  artifactKey: Guid(d1b9f5a5b802e2049934499c29d88b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_126.asset using Guid(d1b9f5a5b802e2049934499c29d88b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298976d32820e870b241c9afba0c593d') in 0.020748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_130.asset
+  artifactKey: Guid(ce0260060f589784cab2fa02c0dc82ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_130.asset using Guid(ce0260060f589784cab2fa02c0dc82ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e8c7c6dd3d01685f91f51c7a59a9e8') in 0.038704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_125.asset
+  artifactKey: Guid(9364062564a53ff4c9b747b9fb54ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_125.asset using Guid(9364062564a53ff4c9b747b9fb54ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d082d5ca343c1edba56b72874680ba') in 0.022504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_129.asset
+  artifactKey: Guid(76c465fd14e39da489018521d1a02195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_129.asset using Guid(76c465fd14e39da489018521d1a02195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc91503b727967c47e7ead91128d86c') in 0.045741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.364615 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_131.asset
+  artifactKey: Guid(3933cd8e5f4b4b34482c77c29e6a73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_131.asset using Guid(3933cd8e5f4b4b34482c77c29e6a73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0bef247d2a6568d32c9f25a4ce4d0c') in 0.037670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_151.asset
+  artifactKey: Guid(f99f262c14d39e146ab511ed00bea0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_151.asset using Guid(f99f262c14d39e146ab511ed00bea0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c8e19dea92f84454e3c8d711b1ff25') in 0.021321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_152.asset
+  artifactKey: Guid(d63c1e9e23f482e4885d9f5f3f6f1abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_152.asset using Guid(d63c1e9e23f482e4885d9f5f3f6f1abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c7daf1a62f67f9f12773292564af9e') in 0.028317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_145.asset
+  artifactKey: Guid(9e3f950b4883dd44f856037b1d23a07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_145.asset using Guid(9e3f950b4883dd44f856037b1d23a07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6abb60cc7b533ceb871216c513d074') in 0.026528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_159.asset
+  artifactKey: Guid(bdff6848924d12d45a8fc25a188c702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_159.asset using Guid(bdff6848924d12d45a8fc25a188c702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023546881388b322e9b2b5467fb6eb14') in 0.039783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_144.asset
+  artifactKey: Guid(d3e99edffd3ab2648806962a6034deec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_144.asset using Guid(d3e99edffd3ab2648806962a6034deec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c0d39f406756a26892a2699589b798') in 0.038213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224882 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_178.asset
+  artifactKey: Guid(34edf0fe8d262af4da68840c5b835249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_178.asset using Guid(34edf0fe8d262af4da68840c5b835249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdf08b091425f4179dec60db1d71a09') in 0.022798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_179.asset
+  artifactKey: Guid(0e4aebc7a467ca848a7c2838fb3750bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_179.asset using Guid(0e4aebc7a467ca848a7c2838fb3750bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e022f3356ca459a1c51a7a3266936c') in 0.028697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_207.asset
+  artifactKey: Guid(da8c743a0db7e5c4b9ae231b01393547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_207.asset using Guid(da8c743a0db7e5c4b9ae231b01393547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fa306d6507b9ec2fb93525166fb110') in 0.022208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_194.asset
+  artifactKey: Guid(9e7a49a5ba76bfa4891630d92a7335fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_194.asset using Guid(9e7a49a5ba76bfa4891630d92a7335fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e5c264ccf77442bf6b70935172afc7') in 0.053282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_186.asset
+  artifactKey: Guid(2eacb49a071185d459605f9d9d58be7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_186.asset using Guid(2eacb49a071185d459605f9d9d58be7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b520d7eeab1ce80d957ab1ae28f26761') in 0.044660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_185.asset
+  artifactKey: Guid(10088e041ca543447bf270c3002cf127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_185.asset using Guid(10088e041ca543447bf270c3002cf127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787d3cff173cd842cbdca5f4fa713b4e') in 0.034247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164040 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_209.asset
+  artifactKey: Guid(63818bb8c5b15e6459d46fa626ddb555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_209.asset using Guid(63818bb8c5b15e6459d46fa626ddb555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866ff79f3fc62db0f8b151e3d08f7169') in 0.041801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_218.asset
+  artifactKey: Guid(132101778a796b24e8ec14fa15c07b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_218.asset using Guid(132101778a796b24e8ec14fa15c07b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f543599cb6e0965572c325a9892dc2f8') in 0.031910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_215.asset
+  artifactKey: Guid(b02a6438581fa8249942030cc146da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_215.asset using Guid(b02a6438581fa8249942030cc146da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2963b04fcdb458469012e5e3b425617c') in 0.022798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_234.asset
+  artifactKey: Guid(1214ed1b3fab7514a991bf6fea894de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_234.asset using Guid(1214ed1b3fab7514a991bf6fea894de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583d436e9438b791231e23652cddd34') in 0.021877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_228.asset
+  artifactKey: Guid(506ec18ac67fb904cb82f4f651769749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_228.asset using Guid(506ec18ac67fb904cb82f4f651769749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e8ebb39c647dccc0b85adc92f3e5b6') in 0.043495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_210.asset
+  artifactKey: Guid(cf196e9cfe0fe674eab56a9d7e30a378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_210.asset using Guid(cf196e9cfe0fe674eab56a9d7e30a378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2881c469092e87d6599d9738ed2b2e2') in 0.161302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061977 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_236.asset
+  artifactKey: Guid(50d2b45619fc98b4f8d307d2e8fed749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_236.asset using Guid(50d2b45619fc98b4f8d307d2e8fed749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ef511b3328214c589b49798fd1fb4c') in 0.019672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_237.asset
+  artifactKey: Guid(c6c56447352898242a5c8a0357078802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_237.asset using Guid(c6c56447352898242a5c8a0357078802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fe6dae399e7e560c467db8d062d24b') in 0.121537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_238.asset
+  artifactKey: Guid(b71fc48bea0ed604dad64dcf1130fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_238.asset using Guid(b71fc48bea0ed604dad64dcf1130fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a617021a0a258af58eefc0cac52e0bb') in 0.047001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_243.asset
+  artifactKey: Guid(82954c52527e0ef40ac683ebc4df7a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_243.asset using Guid(82954c52527e0ef40ac683ebc4df7a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acda6f766b72278b1060ea37aa6dd62') in 0.019922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_239.asset
+  artifactKey: Guid(880009e7eb8a47242a8b165575b170fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_239.asset using Guid(880009e7eb8a47242a8b165575b170fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84847fbfc131c31641234fa8a9d42d30') in 0.019415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_245.asset
+  artifactKey: Guid(283544b10075cf24cad06c6a3e81b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_245.asset using Guid(283544b10075cf24cad06c6a3e81b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b76c9b59a28b7f420c29eb4831645c') in 0.020018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_244.asset
+  artifactKey: Guid(fb397e90b8810e54c9e913a2391c658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_244.asset using Guid(fb397e90b8810e54c9e913a2391c658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573d868d54092926925c8eff7d03d492') in 0.028400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_242.asset
+  artifactKey: Guid(1ae52b6b310be52419f986fbcae8737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_242.asset using Guid(1ae52b6b310be52419f986fbcae8737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fcdeb03b6d2acd8cd1abc3b0be1d54') in 0.026562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122714 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_246.asset
+  artifactKey: Guid(cb3969ea861bb4548ab1ca8aba0c2e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_246.asset using Guid(cb3969ea861bb4548ab1ca8aba0c2e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92306aaabecd33ab7c70cf8688115dd') in 0.031507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_247.asset
+  artifactKey: Guid(2ac9d198aa8b722489c23a111f2bc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_247.asset using Guid(2ac9d198aa8b722489c23a111f2bc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a704985dffde5b0a07a958b9dcd7dbfb') in 0.025738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_263.asset
+  artifactKey: Guid(e58cc85644b62544386c71b9e101f04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_263.asset using Guid(e58cc85644b62544386c71b9e101f04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69005e2c22bca96cb541dc4cdc86b2f6') in 0.029350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_248.asset
+  artifactKey: Guid(2f42040fbb18bc9448ffa442148e570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_248.asset using Guid(2f42040fbb18bc9448ffa442148e570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e0507de6ccdfd7550d8d7ebbd0af54') in 0.021263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_264.asset
+  artifactKey: Guid(0c0518fbcbe777548827859557ecc04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_264.asset using Guid(0c0518fbcbe777548827859557ecc04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96993913cf03741f09a76d0b5f858ea2') in 0.018883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_265.asset
+  artifactKey: Guid(56ac4bd2510730948bbc5cc5f8efa1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_265.asset using Guid(56ac4bd2510730948bbc5cc5f8efa1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb67fd42ee7238878e0572bfbba17f3') in 0.020998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.323321 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_266.asset
+  artifactKey: Guid(a381858d733290c41ab461308c4639ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_266.asset using Guid(a381858d733290c41ab461308c4639ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dc21522478645335a96eab84cf702c') in 0.021945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_274.asset
+  artifactKey: Guid(debf74f0cd8027849880accaff8f16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_274.asset using Guid(debf74f0cd8027849880accaff8f16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ec9ae8f45abf503845fbebe9ed8c0b') in 0.016104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_268.asset
+  artifactKey: Guid(04e7b02e2c002d7499238ecac527516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_268.asset using Guid(04e7b02e2c002d7499238ecac527516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54a67697193428235e6b878e2e332a4') in 0.018992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_271.asset
+  artifactKey: Guid(78f0859a37bc47943b9bd94a28c6a14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_271.asset using Guid(78f0859a37bc47943b9bd94a28c6a14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c98a0a04429e21a26a6ec316a8740a9') in 0.018550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_273.asset
+  artifactKey: Guid(0309f16bd33e8ee46aaa9a1cc762a8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_273.asset using Guid(0309f16bd33e8ee46aaa9a1cc762a8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb70a138d529c115e3daa485ba8c9f6') in 0.018720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_272.asset
+  artifactKey: Guid(6ecd4458dbc3c374894fd2dfe945a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_272.asset using Guid(6ecd4458dbc3c374894fd2dfe945a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5e4bdb7b061cf41d895c3b21843a9e') in 0.017424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.200514 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_276.asset
+  artifactKey: Guid(78ed5f0914f982d47b0da6652f1215ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_276.asset using Guid(78ed5f0914f982d47b0da6652f1215ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce0e92e2d2e504951f74a8cfa4a3e58') in 0.029291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_278.asset
+  artifactKey: Guid(a9048a07ba169914ea39dcb24f83d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_278.asset using Guid(a9048a07ba169914ea39dcb24f83d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d829714274b9460e5c2dc9a3e3a5e68') in 0.018653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Sand_Ruins.prefab
+  artifactKey: Guid(f649b19080c2fb64d8df0f2a7c8f0b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Sand_Ruins.prefab using Guid(f649b19080c2fb64d8df0f2a7c8f0b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a415d523749ade12a4ec7084c2df0bac') in 0.028521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_286.asset
+  artifactKey: Guid(5a1a4c367fe63814f97eb0557c35f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_286.asset using Guid(5a1a4c367fe63814f97eb0557c35f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081d37c5717b95631484b0c680ee1880') in 0.051517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_279.asset
+  artifactKey: Guid(bf103f2a4f04e5f47afec4a65addbfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_279.asset using Guid(bf103f2a4f04e5f47afec4a65addbfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9446eb9db9a06f8faf3cb6344475d580') in 0.035921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_277.asset
+  artifactKey: Guid(f64e220d0e9053e45ac850a2c5988521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_277.asset using Guid(f64e220d0e9053e45ac850a2c5988521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556b58c83da6ed0ca5050af7b3efd4b4') in 0.017412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_280.asset
+  artifactKey: Guid(258127d1a1484cb4d85bdec5b60da171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Sand_Ruins/Dungeon Ruins Tileset Day_280.asset using Guid(258127d1a1484cb4d85bdec5b60da171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643901882f6122e4736d17da0c53a4fe') in 0.019329 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007555 seconds.
+Registered in 0.008830 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.727 seconds
+- Completed reload, in  2.214 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.6 MB.
-System memory in use after: 146.7 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.6 MB.
+System memory in use after: 152.8 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3853.
-Total: 4.254900 ms (FindLiveObjects: 0.708100 ms CreateObjectMapping: 0.266600 ms MarkObjects: 3.069000 ms  DeleteObjects: 0.209800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 4.757700 ms (FindLiveObjects: 0.548700 ms CreateObjectMapping: 0.535900 ms MarkObjects: 3.406800 ms  DeleteObjects: 0.264600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007896 seconds.
+Registered in 0.006880 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.916 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.7 MB.
+System memory in use after: 152.8 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3857.
-Total: 4.630200 ms (FindLiveObjects: 0.586200 ms CreateObjectMapping: 0.282900 ms MarkObjects: 3.515600 ms  DeleteObjects: 0.243300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4074.
+Total: 6.347800 ms (FindLiveObjects: 0.969100 ms CreateObjectMapping: 0.395200 ms MarkObjects: 4.668100 ms  DeleteObjects: 0.313500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007943 seconds.
+Registered in 0.006420 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.7 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 4.568200 ms (FindLiveObjects: 0.595300 ms CreateObjectMapping: 0.237700 ms MarkObjects: 3.474700 ms  DeleteObjects: 0.258600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 998.486232 seconds.
+  path: Assets/Atlas/SD.spriteatlas
+  artifactKey: Guid(a6983535c583f814c93b567e6c278d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Atlas/SD.spriteatlas using Guid(a6983535c583f814c93b567e6c278d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ab64437d291c90e0c5dbdeafe8c381') in 0.036862 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 86.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 4092.
+Total: 15.117700 ms (FindLiveObjects: 0.522800 ms CreateObjectMapping: 0.226100 ms MarkObjects: 3.373800 ms  DeleteObjects: 10.992900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.224844 seconds.
+  path: Assets/Atlas/MasterHD.spriteatlas
+  artifactKey: Guid(aeb4fe14bbb185140a44a78e00ebce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Atlas/MasterHD.spriteatlas using Guid(aeb4fe14bbb185140a44a78e00ebce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d4ba7740796309489f22dcb4624e85') in 0.037944 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.763 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 86.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3861.
-Total: 5.040700 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.270100 ms MarkObjects: 3.825300 ms  DeleteObjects: 0.272200 ms)
+Unloading 225 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 25.623700 ms (FindLiveObjects: 0.628200 ms CreateObjectMapping: 0.284500 ms MarkObjects: 3.045400 ms  DeleteObjects: 21.663900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1058.558032 seconds.
-  path: Assets/Animations/Player/Idle.anim
-  artifactKey: Guid(820955046695fd740b78e578b3308af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Idle.anim using Guid(820955046695fd740b78e578b3308af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c4edbcccea011ea33e4877c8eb9ff8') in 0.045503 seconds 
+  Time since last request: 60.649444 seconds.
+  path: Assets/Atlas/MasterHD.spriteatlas
+  artifactKey: Guid(aeb4fe14bbb185140a44a78e00ebce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Atlas/MasterHD.spriteatlas using Guid(aeb4fe14bbb185140a44a78e00ebce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3887e0a7b6951a2ce782f39397acc4a0') in 0.080920 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006574 seconds.
+Registered in 0.006757 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.836 seconds
+- Completed reload, in  1.916 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.7 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3865.
-Total: 4.360500 ms (FindLiveObjects: 0.587500 ms CreateObjectMapping: 0.225600 ms MarkObjects: 3.346900 ms  DeleteObjects: 0.198600 ms)
+Unloading -188 unused Assets to reduce memory usage. Loaded Objects now: 4098.
+Total: 38.840700 ms (FindLiveObjects: 0.623700 ms CreateObjectMapping: 0.235500 ms MarkObjects: 3.504100 ms  DeleteObjects: 34.475300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006518 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.842 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3869.
-Total: 4.511900 ms (FindLiveObjects: 0.817300 ms CreateObjectMapping: 0.298700 ms MarkObjects: 3.192800 ms  DeleteObjects: 0.201100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 2.342105 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 11.420 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3873.
-Total: 4.047100 ms (FindLiveObjects: 0.540900 ms CreateObjectMapping: 0.217100 ms MarkObjects: 3.072700 ms  DeleteObjects: 0.214800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007099 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.898 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3877.
-Total: 4.218900 ms (FindLiveObjects: 0.565800 ms CreateObjectMapping: 0.233900 ms MarkObjects: 3.222500 ms  DeleteObjects: 0.195300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 322.994991 seconds.
-  path: Assets/Animations/Player/Player.controller
-  artifactKey: Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Player.controller using Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942d8496d4580bf6767054265e4f6303') in 0.062546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.340527 seconds.
-  path: Assets/Animations/Player/Fast_Walk.anim
-  artifactKey: Guid(3018b60281a9f9c4199fc6177b9d5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Fast_Walk.anim using Guid(3018b60281a9f9c4199fc6177b9d5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdb0239466a4a1dc83dc538f86c0ccc') in 0.030772 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007161 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.859 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3881.
-Total: 5.408400 ms (FindLiveObjects: 0.598200 ms CreateObjectMapping: 0.217500 ms MarkObjects: 4.261400 ms  DeleteObjects: 0.329100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007465 seconds.
+Registered in 0.008272 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.852 seconds
+- Completed reload, in  1.936 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3885.
-Total: 3.928000 ms (FindLiveObjects: 0.514900 ms CreateObjectMapping: 0.211200 ms MarkObjects: 2.986400 ms  DeleteObjects: 0.214100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4102.
+Total: 4.800600 ms (FindLiveObjects: 0.545500 ms CreateObjectMapping: 0.220000 ms MarkObjects: 3.779600 ms  DeleteObjects: 0.254300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.526687 seconds.
+  path: Assets/Animations/Player/Player.controller
+  artifactKey: Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player.controller using Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4314163b2e1eddb9cd82f3ad1063493e') in 0.028716 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4106.
+Total: 4.544100 ms (FindLiveObjects: 0.528400 ms CreateObjectMapping: 0.223300 ms MarkObjects: 3.505500 ms  DeleteObjects: 0.285600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006640 seconds.
+Registered in 0.007588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.909 seconds
+- Completed reload, in  1.875 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3889.
-Total: 4.252000 ms (FindLiveObjects: 0.589600 ms CreateObjectMapping: 0.236400 ms MarkObjects: 3.229800 ms  DeleteObjects: 0.194800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4110.
+Total: 4.355000 ms (FindLiveObjects: 0.549500 ms CreateObjectMapping: 0.233200 ms MarkObjects: 3.307700 ms  DeleteObjects: 0.263500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006779 seconds.
+Registered in 0.008233 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3893.
-Total: 4.357700 ms (FindLiveObjects: 0.719500 ms CreateObjectMapping: 0.216000 ms MarkObjects: 3.205100 ms  DeleteObjects: 0.215700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 822.771955 seconds.
-  path: Assets/Scripts/Player/PlayerMove.cs
-  artifactKey: Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerMove.cs using Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831b6e546880c74743fc62b759f2d309') in 0.085317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.615223 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd897aca525e77a61c0916b2fdb5ad84f') in 0.023808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 152.268051 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7384e93e9482ef0b10713d42f0c19103') in 0.007838 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008452 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.944 seconds
+- Completed reload, in  1.895 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3896.
-Total: 4.129500 ms (FindLiveObjects: 0.520600 ms CreateObjectMapping: 0.270000 ms MarkObjects: 3.129000 ms  DeleteObjects: 0.208700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4114.
+Total: 4.266100 ms (FindLiveObjects: 0.560500 ms CreateObjectMapping: 0.229500 ms MarkObjects: 3.212700 ms  DeleteObjects: 0.261700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2441.815298 seconds.
+  path: Assets/Animations/Player/Player_Slow_Walk.anim
+  artifactKey: Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Slow_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcf1b8ce7cb6d3e3dfd346bd792b8f3') in 0.038978 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4118.
+Total: 4.169600 ms (FindLiveObjects: 0.520800 ms CreateObjectMapping: 0.230400 ms MarkObjects: 3.170400 ms  DeleteObjects: 0.246700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.974716 seconds.
+  path: Assets/Animations/Player/Player_Walk.anim
+  artifactKey: Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02db3695ccd1ab2bcdd8cbb448b5b413') in 0.030569 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4122.
+Total: 4.815500 ms (FindLiveObjects: 0.581500 ms CreateObjectMapping: 0.287000 ms MarkObjects: 3.533900 ms  DeleteObjects: 0.411500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.416766 seconds.
+  path: Assets/Animations/Player/Player.controller
+  artifactKey: Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player.controller using Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481b6e2b682fb756259ba6979ba18da9') in 0.032282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.008374 seconds.
+  path: Assets/Animations/Player/Player.controller
+  artifactKey: Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player.controller using Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb9368e9ceab233024f4cce49184e89') in 0.008875 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4126.
+Total: 4.153300 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.228100 ms MarkObjects: 3.128800 ms  DeleteObjects: 0.254000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007394 seconds.
+Registered in 0.006393 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.939 seconds
+- Completed reload, in  1.857 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 4.622500 ms (FindLiveObjects: 0.564200 ms CreateObjectMapping: 0.252200 ms MarkObjects: 3.545400 ms  DeleteObjects: 0.259000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4134.
+Total: 4.336700 ms (FindLiveObjects: 0.542600 ms CreateObjectMapping: 0.219600 ms MarkObjects: 3.302000 ms  DeleteObjects: 0.271100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4138.
+Total: 4.468200 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.221800 ms MarkObjects: 3.424300 ms  DeleteObjects: 0.260300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4142.
+Total: 4.814500 ms (FindLiveObjects: 0.695800 ms CreateObjectMapping: 0.304900 ms MarkObjects: 3.545400 ms  DeleteObjects: 0.266300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4146.
+Total: 4.472100 ms (FindLiveObjects: 0.588300 ms CreateObjectMapping: 0.234900 ms MarkObjects: 3.341100 ms  DeleteObjects: 0.306300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 628.232228 seconds.
+  path: Assets/Animations/Player/Player_Walk.anim
+  artifactKey: Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cb5d8081c9d89a7963517894731037') in 0.032491 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3900.
-Total: 4.409700 ms (FindLiveObjects: 0.725400 ms CreateObjectMapping: 0.268800 ms MarkObjects: 3.210400 ms  DeleteObjects: 0.203300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4150.
+Total: 4.661800 ms (FindLiveObjects: 0.593800 ms CreateObjectMapping: 0.280600 ms MarkObjects: 3.469200 ms  DeleteObjects: 0.316300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006840 seconds.
+Registered in 0.006601 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.913 seconds
+- Completed reload, in  1.906 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 3.982700 ms (FindLiveObjects: 0.560700 ms CreateObjectMapping: 0.251900 ms MarkObjects: 2.957500 ms  DeleteObjects: 0.211000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.079026 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(990e9eea40d962241855b4dd428a5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79721474d5053938ebbf97be388a36d') in 0.011729 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007449 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.978 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+System memory in use before: 153.4 MB.
+System memory in use after: 153.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3908.
-Total: 4.044400 ms (FindLiveObjects: 0.570100 ms CreateObjectMapping: 0.211600 ms MarkObjects: 3.054200 ms  DeleteObjects: 0.206300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4154.
+Total: 5.272200 ms (FindLiveObjects: 0.667100 ms CreateObjectMapping: 0.264900 ms MarkObjects: 3.949900 ms  DeleteObjects: 0.388600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007824 seconds.
+Registered in 0.008498 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.915 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3912.
-Total: 3.949000 ms (FindLiveObjects: 0.504100 ms CreateObjectMapping: 0.208200 ms MarkObjects: 3.027400 ms  DeleteObjects: 0.208200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 338.823006 seconds.
-  path: Assets/Animations/Player/Player_Idle.anim
-  artifactKey: Guid(820955046695fd740b78e578b3308af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Player_Idle.anim using Guid(820955046695fd740b78e578b3308af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5c00260efb166d241e34fd9f5f555') in 0.031561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.001732 seconds.
-  path: Assets/Animations/Player/Player_Fast_Walk.anim
-  artifactKey: Guid(3018b60281a9f9c4199fc6177b9d5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Player_Fast_Walk.anim using Guid(3018b60281a9f9c4199fc6177b9d5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d4a814825620e8465f71bc1d69f74f') in 0.013964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.252783 seconds.
-  path: Assets/Animations/Player/Slow_Walk.anim
-  artifactKey: Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Slow_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab178246ca86d852685b0b6e825a1c69') in 0.013629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.547813 seconds.
-  path: Assets/Animations/Player/Player_Slow_Walk.anim
-  artifactKey: Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Player_Slow_Walk.anim using Guid(2ad3004cbed33f046ba2e3aa1cfc6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc264ce7216aa7fe9f96d6fa2b93c4c9') in 0.015904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.845859 seconds.
-  path: Assets/Animations/Player/Player.controller
-  artifactKey: Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Player.controller using Guid(a7c448a131f14934dbef246207f1229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2976cb91deea857f6aed4cb15a5f7369') in 0.028408 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008669 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.932 seconds
+- Completed reload, in  1.796 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
+System memory in use before: 153.5 MB.
+System memory in use after: 153.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3916.
-Total: 4.437400 ms (FindLiveObjects: 0.727800 ms CreateObjectMapping: 0.210600 ms MarkObjects: 3.286500 ms  DeleteObjects: 0.210900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007289 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.805 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3920.
-Total: 4.581900 ms (FindLiveObjects: 0.783600 ms CreateObjectMapping: 0.230400 ms MarkObjects: 3.340700 ms  DeleteObjects: 0.225400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006554 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.087 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3924.
-Total: 4.439700 ms (FindLiveObjects: 0.719400 ms CreateObjectMapping: 0.262300 ms MarkObjects: 3.239100 ms  DeleteObjects: 0.217000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4158.
+Total: 5.011300 ms (FindLiveObjects: 0.597400 ms CreateObjectMapping: 0.244500 ms MarkObjects: 3.888900 ms  DeleteObjects: 0.278900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
