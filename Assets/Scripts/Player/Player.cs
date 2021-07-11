@@ -155,7 +155,7 @@ public class Player : MonoBehaviour
             memoryChip = FindObjectOfType<MemoryChip>().memoryTag;
             Debug.Log(memoryChip);
             abilityMemories.SetValue(memoryChip, totalOfAbilityMemories - 1);
-            Debug.Log(abilityMemories[0]);
+            Debug.Log(abilityMemories[0]); 
         }
     }
 }
