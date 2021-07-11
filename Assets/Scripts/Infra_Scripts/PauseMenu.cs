@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
-    private Scene menu;
+    // private Scene menu;
 
     void Update()
     {
@@ -43,8 +43,8 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu ()
     {
         Time.timeScale = 1f;
-        menu = SceneManager.GetSceneByBuildIndex(0);
-        SceneManager.LoadScene(menu.name);
+        // menu = SceneManager.GetSceneByName("Menu");
+        SceneManager.LoadScene("Menu");
     }
 
     public void QuitGame ()

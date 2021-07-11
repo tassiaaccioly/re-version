@@ -12,12 +12,15 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
 
+    public Player player;
+
     void Start()
     {
         sentences = new Queue<string>();
+        player = FindObjectOfType<Player>();
     }
 
-    private void FixedUpdate()
+    void Update()
     {
         if (Input.GetKey(KeyCode.Space))
         {
@@ -32,6 +35,8 @@ public class DialogueManager : MonoBehaviour
         anim.SetBool("isDialogueOpen", true);
 
         nameText.text = dialogue.name;
+
+        player.canMove = false;
 
         sentences.Clear();
 
@@ -71,6 +76,8 @@ public class DialogueManager : MonoBehaviour
     {
 
         anim.SetBool("isDialogueOpen", false);
+
+        player.canMove = true;
     }
 
 }

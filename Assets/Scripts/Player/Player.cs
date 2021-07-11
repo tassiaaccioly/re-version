@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     const string LEFT = "left";
 
     // movement
+    public bool canMove;
     public float moveSpeed;
     public float runSpeed;
     private bool facingRight;
@@ -49,6 +50,7 @@ public class Player : MonoBehaviour
         isGrounded = true;
         buttonPressed = null;
         facingRight = true;
+        canMove = true;
         // groundCheck - 1 << LayerMask.NameToLayer("Ground");
     }
 
@@ -56,6 +58,13 @@ public class Player : MonoBehaviour
     void Update()
     {
         xAxis = Input.GetAxisRaw("Horizontal");
+
+        if(!canMove)
+        {
+            rb2D.velocity =  new Vector2(0, 0);
+            ChangeAnimationState(PLAYER_IDLE);
+            return;
+        }
 
         //getting player key presses and setting the direction of the movement 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
@@ -70,10 +79,18 @@ public class Player : MonoBehaviour
         {
             buttonPressed = null;
         }
+        
     }
 
     private void FixedUpdate()
     {
+        if(!canMove)
+        {
+            rb2D.velocity = new Vector2(0, 0);
+            ChangeAnimationState(PLAYER_IDLE);
+            return;
+        }
+
         if (buttonPressed == RIGHT)
         {
             rb2D.velocity = new Vector2(moveSpeed, rb2D.velocity.y);
