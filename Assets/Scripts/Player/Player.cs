@@ -31,10 +31,12 @@ public class Player : MonoBehaviour
 
 
     //memories
+    private int totalOfMemories = 12;
     private int totalOfAbilityMemories = 0;
     private string[] abilityMemories;
     private int totalOfFullMemories = 0;
     private string[] fullMemories;
+    private string memoryChip;
 
     // Animation States
     private string currentAnimation;
@@ -51,7 +53,7 @@ public class Player : MonoBehaviour
         buttonPressed = null;
         facingRight = true;
         canMove = true;
-        // groundCheck - 1 << LayerMask.NameToLayer("Ground");
+        abilityMemories = new string[totalOfMemories];
     }
 
     // Update is called once per frame
@@ -150,7 +152,10 @@ public class Player : MonoBehaviour
         {
             totalOfAbilityMemories++;
             Debug.Log("Total of Ability Memories: " + totalOfAbilityMemories);
-            // abilityMemories.SetValue("attribute", totalOfAbilityMemories - 1);
+            memoryChip = FindObjectOfType<MemoryChip>().memoryTag;
+            Debug.Log(memoryChip);
+            abilityMemories.SetValue(memoryChip, totalOfAbilityMemories - 1);
+            Debug.Log(abilityMemories[0]);
         }
     }
 }

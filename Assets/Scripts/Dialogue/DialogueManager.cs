@@ -20,15 +20,6 @@ public class DialogueManager : MonoBehaviour
         player = FindObjectOfType<Player>();
     }
 
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            DisplayNextSentence();
-        }
-
-    }
-
     public void StartDialogue (Dialogue dialogue)
     {
 
