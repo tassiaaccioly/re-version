@@ -17,6 +17,15 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
+    private void FixedUpdate()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            DisplayNextSentence();
+        }
+
+    }
+
     public void StartDialogue (Dialogue dialogue)
     {
 
@@ -60,6 +69,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+
         anim.SetBool("isDialogueOpen", false);
     }
 

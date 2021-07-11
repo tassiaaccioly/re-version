@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - FullMemoryChip
+  - AbilityMemoryChip
+  - StaminaMemoryGlob
   layers:
   - Default
   - TransparentFX

@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     // movement
     public float moveSpeed;
+    public float runSpeed;
     private bool facingRight;
     private float xAxis;
 
@@ -23,12 +24,22 @@ public class Player : MonoBehaviour
     private Transform groundCheck;
     private bool isGrounded;
 
+    //stamina
+    public int totalStamina;
+    private float actualStamina;
+
+
+    //memories
+    private int totalOfAbilityMemories = 0;
+    private string[] abilityMemories;
+    private int totalOfFullMemories = 0;
+    private string[] fullMemories;
+
     // Animation States
     private string currentAnimation;
     const string PLAYER_IDLE = "Player_Idle";
     const string PLAYER_WALK = "Player_Walk";
     const string PLAYER_RUN = "Player_Run";
-
 
     // Start is called before the first frame update
     void Start()
@@ -82,11 +93,19 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 
-        Debug.Log(rb2D.velocity.x);
+        //run
+        if(totalOfAbilityMemories > 0)
+        {
+            moveSpeed = runSpeed;
+        }
 
         //Animation change
 
-        if(xAxis != 0f)
+        if(xAxis != 0f && totalOfAbilityMemories > 0)
+        {
+            ChangeAnimationState(PLAYER_RUN);
+        }
+        else if(xAxis != 0f)
         {
             ChangeAnimationState(PLAYER_WALK);
         }
@@ -106,5 +125,15 @@ public class Player : MonoBehaviour
 
         //reassign the current state
         currentAnimation = newAnimation;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("AbilityMemoryChip"))
+        {
+            totalOfAbilityMemories++;
+            Debug.Log("Total of Ability Memories: " + totalOfAbilityMemories);
+            // abilityMemories.SetValue("attribute", totalOfAbilityMemories - 1);
+        }
     }
 }
