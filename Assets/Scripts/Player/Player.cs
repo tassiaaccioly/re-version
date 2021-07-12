@@ -23,7 +23,8 @@ public class Player : MonoBehaviour
 
     //jump
     private bool isJumping;
-    public int jumpForce;
+    public float jumpDelay;
+    public int maxJump;
 
     //ground checks
     public Transform groundCheck;
@@ -102,17 +103,20 @@ public class Player : MonoBehaviour
             return;
         }
 
-        if (buttonPressed == RIGHT)
+        if (!isJumping)
         {
-            rb2D.velocity = new Vector2(moveSpeed, rb2D.velocity.y);
-        }
-        else if (buttonPressed == LEFT)
-        {
-            rb2D.velocity = new Vector2(-moveSpeed, rb2D.velocity.y);
-        }
-        else if (buttonPressed == null)
-        {
-            rb2D.velocity = new Vector2(0, rb2D.velocity.y);
+            if (buttonPressed == RIGHT)
+            {
+                rb2D.velocity = new Vector2(moveSpeed, rb2D.velocity.y);
+            }
+            else if (buttonPressed == LEFT)
+            {
+                rb2D.velocity = new Vector2(-moveSpeed, rb2D.velocity.y);
+            }
+            else if (buttonPressed == null)
+            {
+                rb2D.velocity = new Vector2(0, rb2D.velocity.y);
+            }
         }
 
         if ((xAxis < 0f && facingRight) || (xAxis > 0f && !facingRight))
@@ -121,19 +125,22 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 
-        //run
-        if(totalOfAbilityMemories > 0)
+        //if the player got the first memory they can walk faster/run and jump
+        if (totalOfAbilityMemories > 0)
         {
+            //run
             moveSpeed = runSpeed;
-        }
 
-        //jump
-        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetButtonDown("Jump") && isGrounded && !isJumping)
-        {
-            isJumping = true;
-            isGrounded = false;
-            ChangeAnimationState(PLAYER_JUMPUP);
-            StartCoroutine(JumpAnimation());
+            //jump
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetButtonDown("Jump") && isGrounded && !isJumping && Time.time > jumpDelay && maxJump > 0)
+            {
+                maxJump--;
+                isJumping = true;
+                isGrounded = false;
+                rb2D.velocity = new Vector2(0, transform.position.y);
+                ChangeAnimationState(PLAYER_JUMPUP);
+                StartCoroutine(JumpAnimation());
+            }
         }
 
         //Animation change
