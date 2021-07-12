@@ -21,8 +21,12 @@ public class Player : MonoBehaviour
     private bool facingRight;
     private float xAxis;
 
+    //jump
+    private bool isJumping;
+    public int jumpForce;
+
     //ground checks
-    private Transform groundCheck;
+    public Transform groundCheck;
     private bool isGrounded;
 
     //stamina
@@ -43,6 +47,8 @@ public class Player : MonoBehaviour
     const string PLAYER_IDLE = "Player_Idle";
     const string PLAYER_WALK = "Player_Walk";
     const string PLAYER_RUN = "Player_Run";
+    const string PLAYER_JUMPUP = "Player_JumpUp";
+    const string PLAYER_JUMPDOWN = "Player_JumpDown";
 
     // Start is called before the first frame update
     void Start()
@@ -53,12 +59,15 @@ public class Player : MonoBehaviour
         buttonPressed = null;
         facingRight = true;
         canMove = true;
+        isJumping = false;
         abilityMemories = new string[totalOfMemories];
     }
 
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+
         xAxis = Input.GetAxisRaw("Horizontal");
 
         if(!canMove)
@@ -118,20 +127,46 @@ public class Player : MonoBehaviour
             moveSpeed = runSpeed;
         }
 
+        //jump
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetButtonDown("Jump") && isGrounded && !isJumping)
+        {
+            isJumping = true;
+            isGrounded = false;
+            ChangeAnimationState(PLAYER_JUMPUP);
+            StartCoroutine(JumpAnimation());
+        }
+
         //Animation change
 
-        if(xAxis != 0f && totalOfAbilityMemories > 0)
+        if (xAxis != 0f && totalOfAbilityMemories > 0)
         {
             ChangeAnimationState(PLAYER_RUN);
         }
-        else if(xAxis != 0f)
+        else if (xAxis != 0f)
         {
             ChangeAnimationState(PLAYER_WALK);
         }
-        else
+        else if (rb2D.velocity == new Vector2(0f, 0f) && !isJumping)
         {
             ChangeAnimationState(PLAYER_IDLE);
         }
+    }
+
+    IEnumerator JumpAnimation()
+    {
+        yield return new WaitForSeconds(.8f);
+        if(facingRight)
+        {
+            transform.position = new Vector3(transform.position.x + .1f, transform.position.y, transform.position.z);
+        }
+        else
+        {
+            transform.position = new Vector3(transform.position.x - .1f, transform.position.y, transform.position.z);
+        }
+        yield return new WaitForSeconds(.6f);
+        ChangeAnimationState(PLAYER_JUMPDOWN);
+        yield return new WaitForSeconds(.9f);
+        isJumping = false;
     }
 
     void ChangeAnimationState(string newAnimation)

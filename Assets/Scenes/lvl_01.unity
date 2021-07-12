@@ -2216,7 +2216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766442887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.48, z: 5.79}
+  m_LocalPosition: {x: -3.99, y: -0.48, z: 5.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 501640315}
@@ -2238,6 +2238,8 @@ MonoBehaviour:
   canMove: 0
   moveSpeed: 0.2
   runSpeed: 1
+  jumpForce: 0
+  groundCheck: {fileID: 501640315}
   totalStamina: 0
 --- !u!1 &853534651
 GameObject:
