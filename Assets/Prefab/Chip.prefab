@@ -117,14 +117,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085023ea8bea291448e663ba1c9ad714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chipRB: {fileID: 0}
+  isTyped: 0
   dialogue:
     name: 
     sentences:
-    - Kat... You've found me. You've really found me. But I'm just one of many...
-    - Fractured memories...
-    - How many are there?
+    - Test1
+    - Test2
+    - Test3
   particleChip: {fileID: 0}
+  memoryTag: 
 --- !u!61 &69449335
 BoxCollider2D:
   m_ObjectHideFlags: 0

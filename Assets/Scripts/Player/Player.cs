@@ -9,6 +9,10 @@ public class Player : MonoBehaviour
     private SpriteRenderer sprite;
     private Vector2 playerCurPos;
 
+    //memories
+    private MemoryController memoryController;
+    private int totalOfAbilityMemories;
+
     // keyboard interaction
     private string buttonPressed;
 
@@ -42,15 +46,6 @@ public class Player : MonoBehaviour
     public int totalStamina;
     private float actualStamina;
 
-
-    //memories
-    private int totalOfMemories = 12;
-    private int totalOfAbilityMemories = 0;
-    private string[] abilityMemories;
-    private int totalOfFullMemories = 0;
-    private string[] fullMemories;
-    private string memoryChip;
-
     // Animation States
     private string currentAnimation;
     const string PLAYER_IDLE = "Player_Idle";
@@ -69,13 +64,15 @@ public class Player : MonoBehaviour
         facingRight = true;
         canMove = true;
         isJumping = false;
-        abilityMemories = new string[totalOfMemories];
         canJump = false;
+        memoryController = FindObjectOfType<MemoryController>();
+        totalOfAbilityMemories = memoryController.totalOfAbilityMemories;
     }
 
     // Update is called once per frame
     void Update()
     {
+
         // store player current position into a variable
         playerCurPos = rb2D.transform.position;
 
@@ -224,14 +221,21 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("AbilityMemoryChip"))
+        memoryController = FindObjectOfType<MemoryController>();
+
+        if (other.CompareTag("AbilityMemoryChip"))
         {
-            totalOfAbilityMemories++;
-            Debug.Log("Total of Ability Memories: " + totalOfAbilityMemories);
-            memoryChip = FindObjectOfType<MemoryChip>().memoryTag;
-            Debug.Log(memoryChip);
-            abilityMemories.SetValue(memoryChip, totalOfAbilityMemories - 1);
-            Debug.Log(abilityMemories[0]); 
+            memoryController.addAbilityMemory(other.GetComponent<MemoryChip>().memoryTag);
+        }
+
+        if (other.CompareTag("FullMemoryChip"))
+        {
+            memoryController.addFullMemory(other.GetComponent<MemoryChip>().memoryTag);
+        }
+
+        if (other.CompareTag("BrokenMemoryChip"))
+        {
+            memoryController.addBrokenMemory(other.GetComponent<MemoryChip>().memoryTag);
         }
     }
 }
