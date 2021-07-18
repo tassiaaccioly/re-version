@@ -8,6 +8,8 @@ TagManager:
   - FullMemoryChip
   - AbilityMemoryChip
   - StaminaMemoryGlob
+  - MemoryChip
+  - DeathCollider
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -9,8 +10,10 @@ public class DialogueManager : MonoBehaviour
 
     public Animator anim;
 
-    public Text nameText;
-    public Text dialogueText;
+
+    public bool typed;
+    public TMP_Text nameText;
+    public TMP_Text dialogueText;
 
     public Player player;
 
@@ -18,12 +21,13 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
         player = FindObjectOfType<Player>();
+        typed = FindObjectOfType<MemoryChip>().isTyped;
     }
 
     public void StartDialogue (Dialogue dialogue)
     {
 
-        anim.SetBool("isDialogueOpen", true);
+        anim.Play("DialogueBox_Open");
 
         nameText.text = dialogue.name;
 
@@ -48,8 +52,16 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        // StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+
+        if(typed)
+        {
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(sentence));
+        }
+        else
+        {
+            dialogueText.text = sentence;
+        }
     }
 
     IEnumerator TypeSentence (string sentence)
@@ -66,7 +78,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
 
-        anim.SetBool("isDialogueOpen", false);
+        anim.Play("DialogueBox_Close");
 
         player.canMove = true;
     }

@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class MemoryChip : MonoBehaviour
 {
+    public bool isTyped;
     public Dialogue dialogue;
     public GameObject particleChip;
     public string memoryTag;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {

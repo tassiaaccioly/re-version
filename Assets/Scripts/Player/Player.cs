@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb2D;
     private Animator anim;
     private SpriteRenderer sprite;
+    private Vector2 playerCurPos;
 
     // keyboard interaction
     private string buttonPressed;
@@ -22,13 +23,20 @@ public class Player : MonoBehaviour
     private float xAxis;
 
     //jump
+    private bool canJump;
     private bool isJumping;
-    public float jumpDelay;
-    public int maxJump;
+    public float jumpHeight;
+
 
     //ground checks
     public Transform groundCheck;
     private bool isGrounded;
+
+    // collider checks
+    private RaycastHit2D playerJumpCheck;
+    public Vector2 startJumpCast;
+    public Vector2 endJumpCast;
+    
 
     //stamina
     public int totalStamina;
@@ -62,20 +70,41 @@ public class Player : MonoBehaviour
         canMove = true;
         isJumping = false;
         abilityMemories = new string[totalOfMemories];
+        canJump = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        // store player current position into a variable
+        playerCurPos = rb2D.transform.position;
+
+        // lines cast from player
+        startJumpCast = playerCurPos;
+        startJumpCast.x += .3f;
+        startJumpCast.y -= .4f;
+        endJumpCast = startJumpCast;
+        endJumpCast.x += 2f;
+
+        Debug.DrawLine(startJumpCast, endJumpCast, Color.red);
+
+        playerJumpCheck = Physics2D.Linecast(startJumpCast, endJumpCast);
+
         isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
-        xAxis = Input.GetAxisRaw("Horizontal");
+        xAxis = Input.GetAxis("Horizontal");
 
-        if(!canMove)
+        if (!canMove)
         {
             rb2D.velocity =  new Vector2(0, 0);
             ChangeAnimationState(PLAYER_IDLE);
             return;
+        }
+
+        if(totalOfAbilityMemories > 0)
+        {
+            moveSpeed = runSpeed;
+            canJump = true;
         }
 
         //getting player key presses and setting the direction of the movement 
@@ -91,7 +120,22 @@ public class Player : MonoBehaviour
         {
             buttonPressed = null;
         }
-        
+
+        //if the player got the first memory they can walk faster/run and jump
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetButtonDown("Jump"))
+        {
+            Debug.Log("I got here");
+            Debug.Log("canJump: " + canJump);
+            Debug.Log("isGrounded: " + isGrounded);
+
+            if (canJump && isGrounded)
+            {
+                isJumping = true;
+                isGrounded = false;
+            }
+            
+        }
+
     }
 
     private void FixedUpdate()
@@ -119,28 +163,18 @@ public class Player : MonoBehaviour
             }
         }
 
+        if (isJumping)
+        {
+            rb2D.velocity = new Vector2(0, 0);
+            ChangeAnimationState(PLAYER_JUMPUP);
+            StartCoroutine(JumpAnimation());
+        }
+
+        // turn player sprite to face input
         if ((xAxis < 0f && facingRight) || (xAxis > 0f && !facingRight))
         {
             facingRight = !facingRight;
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-        }
-
-        //if the player got the first memory they can walk faster/run and jump
-        if (totalOfAbilityMemories > 0)
-        {
-            //run
-            moveSpeed = runSpeed;
-
-            //jump
-            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetButtonDown("Jump") && isGrounded && !isJumping && Time.time > jumpDelay && maxJump > 0)
-            {
-                maxJump--;
-                isJumping = true;
-                isGrounded = false;
-                rb2D.velocity = new Vector2(0, transform.position.y);
-                ChangeAnimationState(PLAYER_JUMPUP);
-                StartCoroutine(JumpAnimation());
-            }
         }
 
         //Animation change
@@ -164,11 +198,11 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(.8f);
         if(facingRight)
         {
-            transform.position = new Vector3(transform.position.x + .1f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + .01f, transform.position.y + jumpHeight, transform.position.z);
         }
         else
         {
-            transform.position = new Vector3(transform.position.x - .1f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x - .01f, transform.position.y + jumpHeight, transform.position.z);
         }
         yield return new WaitForSeconds(.6f);
         ChangeAnimationState(PLAYER_JUMPDOWN);
