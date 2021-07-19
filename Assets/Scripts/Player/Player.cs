@@ -11,11 +11,10 @@ public class Player : MonoBehaviour
 
     //memories
     private MemoryController memoryController;
-    private int totalOfAbilityMemories;
+    private int totalOfAbilityMemories = 0;
 
     // keyboard interaction
     private string buttonPressed;
-
     const string RIGHT = "right";
     const string LEFT = "left";
 
@@ -31,7 +30,6 @@ public class Player : MonoBehaviour
     private bool isJumping;
     public float jumpHeight;
 
-
     //ground checks
     public Transform groundCheck;
     private bool isGrounded;
@@ -40,7 +38,6 @@ public class Player : MonoBehaviour
     private RaycastHit2D playerJumpCheck;
     public Vector2 startJumpCast;
     public Vector2 endJumpCast;
-    
 
     //stamina
     public int totalStamina;
@@ -64,9 +61,8 @@ public class Player : MonoBehaviour
         facingRight = true;
         canMove = true;
         isJumping = false;
-        canJump = false;
+        canJump = true;
         memoryController = FindObjectOfType<MemoryController>();
-        totalOfAbilityMemories = memoryController.totalOfAbilityMemories;
     }
 
     // Update is called once per frame
@@ -98,7 +94,7 @@ public class Player : MonoBehaviour
             return;
         }
 
-        if(totalOfAbilityMemories > 0)
+        if (totalOfAbilityMemories > 0)
         {
             moveSpeed = runSpeed;
             canJump = true;
@@ -192,7 +188,7 @@ public class Player : MonoBehaviour
 
     IEnumerator JumpAnimation()
     {
-        yield return new WaitForSeconds(.8f);
+        yield return new WaitForSeconds(.5f);
         if(facingRight)
         {
             transform.position = new Vector3(transform.position.x + .01f, transform.position.y + jumpHeight, transform.position.z);
@@ -201,7 +197,6 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x - .01f, transform.position.y + jumpHeight, transform.position.z);
         }
-        yield return new WaitForSeconds(.6f);
         ChangeAnimationState(PLAYER_JUMPDOWN);
         yield return new WaitForSeconds(.9f);
         isJumping = false;
@@ -225,6 +220,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("AbilityMemoryChip"))
         {
+            totalOfAbilityMemories++;
             memoryController.addAbilityMemory(other.GetComponent<MemoryChip>().memoryTag);
         }
 
